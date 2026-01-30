@@ -1,1 +1,3 @@
-# Sentiment_analysis
+1. Sentiment Analysis mətnin hansı emosiyanı ifadə etdiyini müəyyən etmək üçün istifadə olunur. Araşdırma zamanı gördüm ki, bunun üçün əsasən lexicon-based, machine learning və deep learning yanaşmaları mövcuddur. Bu tapşırıq üçün machine learning yanaşmasını seçdim. Mətnlərin rəqəmsal formaya salınması üçün TF-IDF, model olaraq isə Logistic Regression istifadə etdim. Bu üsul sadədir, sürətlidir və sentiment analysis üçün effektiv nəticə verir. Eyni zamanda modelin verdiyi nəticələri izah etmək də daha asandır.
+
+5.Model test datası üzərində yoxlanıldı və ümumi olaraq yaxşı nəticə göstərdi. Müsbət və mənfi emosiyalar aydın şəkildə ayırd edildi. Sadə və qısa cümlələrdə dəqiqlik daha yüksək oldu, qarışıq emosiyalı cümlələrdə isə bəzi səhvlər müşahidə edildi. Ümumilikdə qurulan model verilmiş dataset üçün uyğun hesab olunur və istifadəçi tərəfindən yazılmış cümlələrin emosiyasını müəyyən etmək üçün praktik olaraq istifadə edilə bilər
